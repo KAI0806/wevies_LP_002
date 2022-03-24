@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="57" viewBox="0 0 206 57">
+  <g id="グループ_5755" data-name="グループ 5755" transform="translate(-0.093 -0.361)">
+    <text id="コイコイ" transform="translate(62.093 37.361)" fill="#252525" font-size="28" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.05em"><tspan x="0" y="0">コイコイ</tspan></text>
+    <g id="長方形_2884" data-name="長方形 2884" transform="translate(36.093 0.361)" fill="none" stroke="#252525" stroke-width="1">
+      <rect width="170" height="57" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="169" height="56" rx="11.5" fill="none"/>
+    </g>
+    <g id="楕円形_315" data-name="楕円形 315" transform="translate(14.093 18.361)" fill="none" stroke="#252525" stroke-width="1">
+      <ellipse cx="9.5" cy="10" rx="9.5" ry="10" stroke="none"/>
+      <ellipse cx="9.5" cy="10" rx="9" ry="9.5" fill="none"/>
+    </g>
+    <g id="楕円形_316" data-name="楕円形 316" transform="translate(0.093 31.361)" fill="none" stroke="#252525" stroke-width="1">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.5" fill="none"/>
+    </g>
+  </g>
+</svg>

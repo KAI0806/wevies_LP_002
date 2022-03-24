@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240.328" height="240.33" viewBox="0 0 240.328 240.33">
+  <defs>
+    <filter id="パス_4967" x="0" y="0" width="240.328" height="240.33" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_124594_更新済み_" data-name="124594 [更新済み]" transform="translate(90.379 6) rotate(30)" opacity="0.44" style="isolation: isolate">
+    <rect id="長方形_2937" data-name="長方形 2937" width="27.836" height="7.456" transform="translate(22.371 82.941)" fill="#8d2525"/>
+    <rect id="長方形_2938" data-name="長方形 2938" width="27.836" height="7.456" transform="translate(22.371 96.857)" fill="#8d2525"/>
+    <rect id="長方形_2939" data-name="長方形 2939" width="27.836" height="7.456" transform="translate(22.371 110.777)" fill="#8d2525"/>
+    <rect id="長方形_2940" data-name="長方形 2940" width="27.84" height="7.456" transform="translate(112.54 82.941)" fill="#8d2525"/>
+    <rect id="長方形_2941" data-name="長方形 2941" width="27.84" height="7.456" transform="translate(112.54 96.857)" fill="#8d2525"/>
+    <rect id="長方形_2942" data-name="長方形 2942" width="27.84" height="7.456" transform="translate(112.54 110.777)" fill="#8d2525"/>
+    <g transform="matrix(0.87, -0.5, 0.5, 0.87, -81.27, 39.99)" filter="url(#パス_4967)">
+      <path id="パス_4967-2" data-name="パス 4967" d="M81.375,0a81.379,81.379,0,1,0,81.379,81.379A81.469,81.469,0,0,0,81.375,0ZM112.1,14.229a74.138,74.138,0,0,1,21.249,14.658H112.1Zm-60.473-.47V28.887H29.4A74.189,74.189,0,0,1,51.627,13.76ZM62.673,152.812a73.546,73.546,0,0,1-24.1-11.273h24.1Zm29.95,1.54a74.51,74.51,0,0,1-7.519.76V144.79H77.647v10.322a73.441,73.441,0,0,1-7.519-.76V141.539H92.622Zm7.456-1.54V141.539h24.1A73.511,73.511,0,0,1,100.078,152.812Zm32.969-18.665a3.18,3.18,0,0,0-.317-.063H30.02c-.112,0-.209.056-.317.063a73.572,73.572,0,0,1-6.811-97.8h36.19V10.911a73.326,73.326,0,0,1,45.562.358V36.343h35.217a73.567,73.567,0,0,1-6.814,97.8Z" transform="translate(90.38 6) rotate(30)" fill="#8d2525"/>
+    </g>
+    <path id="パス_4969" data-name="パス 4969" d="M38,16C53.445,23.461,30.822,0,22,0S-11.211,24.471,6,16,22.55,8.534,38,16Z" transform="translate(87.882 49.419)" fill="#8d2525"/>
+    <path id="パス_4971" data-name="パス 4971" d="M38,16C53.445,23.461,30.822,0,22,0S-11.211,24.471,6,16,22.55,8.534,38,16Z" transform="translate(29.119 48.672)" fill="#8d2525"/>
+    <path id="パス_4970" data-name="パス 4970" d="M21.167,16.79a8.832,8.832,0,1,0-7.456.138v9.349L0,39.989,5.271,45.26,17.439,33.092,29.607,45.26l5.271-5.271L21.167,26.274Z" transform="translate(63.936 81.058)" fill="#8d2525"/>
+  </g>
+</svg>

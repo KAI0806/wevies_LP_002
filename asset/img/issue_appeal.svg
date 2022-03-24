@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="173" height="38" viewBox="0 0 173 38">
+  <g id="グループ_5820" data-name="グループ 5820" transform="translate(-0.3 0.457)">
+    <text id="先手必勝ニャ_" data-name="先手必勝ニャ！" transform="translate(41.3 23.543)" fill="#252525" font-size="16" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.05em"><tspan x="0" y="0">先手必勝ニャ！</tspan></text>
+    <g id="長方形_2884" data-name="長方形 2884" transform="translate(23.3 -0.457)" fill="none" stroke="#252525" stroke-width="1">
+      <rect width="150" height="38" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="149" height="37" rx="11.5" fill="none"/>
+    </g>
+    <g id="楕円形_315" data-name="楕円形 315" transform="translate(9.3 12.543)" fill="none" stroke="#252525" stroke-width="1">
+      <ellipse cx="6.5" cy="6" rx="6.5" ry="6" stroke="none"/>
+      <ellipse cx="6.5" cy="6" rx="6" ry="5.5" fill="none"/>
+    </g>
+    <g id="楕円形_316" data-name="楕円形 316" transform="translate(0.3 20.543)" fill="none" stroke="#252525" stroke-width="1">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>
