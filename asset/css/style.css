@@ -117,9 +117,13 @@
 }
 
 /* issue */
+#issue{
+    margin-bottom: 8rem;
+}
+
 #issue .title, #feature .title{
     background: #252525;
-    color: white;
+    color: #F8FEFF;
     text-align: center;
     padding: 3.36rem 0;
     position: relative;
@@ -145,6 +149,21 @@
     width: 33rem;
     margin-right: 3.8rem;
     vertical-align: bottom;
+}
+
+#issue .title h2 span, #feature .title h2 span{
+    position: relative;
+}
+
+#issue .title h2 span::before, #feature .title h2 span::before{
+    position: absolute;
+    content: "";
+    width: .4rem;
+    height: .4rem;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("../img/dot.svg")no-repeat center center/contain;
 }
 
 #issue .title h3{
@@ -248,7 +267,7 @@
 }
 
 #issue .wrap .content .middle{
-    background: white;
+    background: #F8FEFF;
     text-align: center;
     padding: 1.73rem 0 4rem;
 }
@@ -361,6 +380,7 @@
 #feature .wrap{
     width: 70.83%;
     margin: auto;
+    margin-bottom: 11.57rem;
 }
 
 #feature .wrap .top{
@@ -418,14 +438,19 @@
 }
 
 #feature .wrap .bottom .content div{
-    width: 32%;
+    width: 31%;
     height: 19.53rem;
-    background: white;
+    background: #F8FEFF;
     border: solid .2rem #FBD878;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2.3rem 0;
+}
+
+#feature .wrap .bottom .content div:last-child{
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #feature .wrap .bottom .content div img{
@@ -438,62 +463,78 @@
     font-weight: bold;
 }
 
+#feature .wrap .bottom .content div ul p{
+    text-align: right;
+}
+
+#feature .wrap .bottom .content div:last-child h5{
+    font-size: 3rem;
+    color: #FBD878;
+    margin-bottom: 3.64rem;
+}
+
+#feature .wrap .bottom .content div:last-child p{
+    width: 80%;
+}
+
+#feature .wrap .bottom .content div:last-child p:last-child{
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 3.82rem;
+}
+
+#feature .cta::before, #price .cta::before, #flow .cta::before, #faq .cta::before{
+    width: 8.2rem;
+    height: 11.7rem;
+    transform: translate(-390%, -70%);
+}
+
+#feature .cta::after, #price .cta::after, #flow .cta::after, #faq .cta::after{
+    width: 21.6rem;
+    height: 2.7rem;
+    transform: translate(-110%, -40%);
+    background: url("../img/feature_appeal.svg")no-repeat center center/contain;
+}
+
 /* price */
 #price{
-    width: 75%;
-    padding: 5.5rem 0 6rem;
+    padding: 8.82rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: auto;
+}
+
+#price h2, #flow h2, #faq h2{
+    font-size: 5.2rem;
+    width: 100%;
+    text-align: center;
+    color: #F8FEFF;
+    padding: 5.63rem 0;
+    margin-bottom: 4.72rem;
+    background: url("../img/title_bg02.svg")no-repeat center center/cover;
+}
+
+#price h2 img, #flow h2 img{
+    width: 28rem;
+    margin-right: 1.32rem;
+    vertical-align: bottom;
 }
 
 #price > p{
-    margin-bottom: 2.5rem;
+    margin-bottom: 4.9rem;
     text-align: center;
-}
-
-#price > p:nth-child(7){
-    margin-top: 0;
-}
-
-#price .attention{
-    font-size: 3rem;
-    width: unset;
-    margin: 0;
-    font-weight: bold;
-    position: relative;
-}
-
-#price .attention::before{
-    position: absolute;
-    content: "";
-    height: 3.1rem;
-    width: 4rem;
-    bottom: 1.5rem;
-    left: -6rem;
-    background: url("../img/appeal_left.svg") no-repeat center center/contain;
-}
-
-#price .attention::after{
-    position: absolute;
-    content: "";
-    height: 3.1rem;
-    width: 4rem;
-    bottom: 1.5rem;
-    right: -6rem;
-    background: url("../img/appeal_right.svg") no-repeat center center/contain;
 }
 
 #price .table{
     display: flex;
     justify-content: center;
     align-items: stretch;
-    width: 100%;
-    border: .3rem solid #03CDD5;
+    width: 70.83%;
+    margin: auto;
+    border: .3rem solid #F5F5F5;
     border-radius: 1.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 14.83rem;
 }
 
 #price .table > div{
@@ -506,32 +547,33 @@
 
 #price .table > div > h3{
     font-size: 4rem;
-    color: #03CDD5;
+    color: #FFCA4E;
     text-align: center;
     padding: 2.5rem 0;
     line-height: 1;
     width: 100%;
-    border-bottom: .3rem solid #03CDD5;
+    background: white;
+    border-bottom: .3rem solid #F5F5F5;
 }
 
 #price .table > .standard > h3{
-    color: white;
-    background: #03CDD5;
+    color: #F8FEFF;
+    background: #FFCA4E;
     padding: 2.5rem .1rem;
 }
 
 #price .table .basic h3{
-    border-radius: 0 0 0 1.3rem;
+    border-radius: 1.2rem 0 0 1.2rem;
 }
 
 #price .table .premium h3{
-    border-radius: 0 0 1.3rem 0;
+    border-radius: 0 1.3rem 1.3rem 0;
 }
 
 #price .table > div > h4{
     font-size: 1.8rem;
     padding: 2.5rem 0;
-    border-bottom: .3rem solid #03CDD5;
+    border-bottom: .3rem solid #FFCA4E;
     text-align: center;
     width: 100%;
 }
@@ -557,7 +599,7 @@
     padding: 1rem 0;
     width: 70%;
     background: #03CDD5;
-    color: white;
+    color: #F8FEFF;
     text-align: center;
 }
 
@@ -572,15 +614,19 @@
 
 #price .table .must{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background: #03CDD5;
+    background: #FFCA4E;
     width: 100%;
     padding: 2.5rem 0;
 }
 
 #price .table .must ul{
     list-style: none;
+}
+
+#price .table .must ul:last-child{
+    margin-left: 4rem;
 }
 
 #price .table .must ul li, #price .table .case ul li{
@@ -605,8 +651,12 @@
     background: url("../img/check.svg") no-repeat center center/contain;
 }
 
+#price .table .must ul li::before{
+    background: url("../img/check_white.svg") no-repeat center center/contain;
+}
+
 #price .table .case{
-    background: #C5FDFF;
+    background: #FDFDFD;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -628,7 +678,7 @@
     width: 100%;
     height: .9rem;
     bottom: .5rem;
-    background: #FDF369;
+    background: #FFCA4E;
     z-index: -1;
 }
 
@@ -700,7 +750,7 @@
     width: 100%;
     height: .9rem;
     bottom: 0;
-    background: #FDF369;
+    background: #FFCA4E;
     z-index: -1;
 }
 
@@ -719,9 +769,16 @@
     border: 1rem solid #FDF369;
 }
 
+#price .cta::after{
+    width: 11.3rem;
+    height: 2.4rem;
+    transform: translate(-210%, -40%);
+    background: url("../img/price_appeal.svg")no-repeat center center/contain;
+}
+
 /* flow */
 #flow{
-    padding: 5.5rem 0 6rem;
+    padding: 8.82rem 0 0;
 }
 
 #flow .wrap{
@@ -743,7 +800,7 @@
     justify-content: space-between;
     align-items: stretch;
     width: 100%;
-    margin-bottom: 6.5rem;
+    margin-bottom: 14.6rem;
 }
 
 #flow .wrap .flow_list div{
@@ -797,6 +854,13 @@
     font-size: 1.6rem;
 }
 
+#flow .cta::after{
+    width: 10.7rem;
+    height: 2.4rem;
+    transform: translate(-220%, -40%);
+    background: url("../img/flow_appeal.svg")no-repeat center center/contain;
+}
+
 /* faq */
 #faq{
     padding: 5.5rem 0 6rem;
@@ -812,9 +876,6 @@
     width: 53.68%;
 }
 
-#faq .content:nth-child(2){
-    margin-top: 7rem;
-}
 
 #faq .content:last-child{
     margin-bottom: 0;
@@ -833,7 +894,7 @@
 }
 
 #faq .content .question{
-    background: #03CDD5;
+    background: #FFCA4E;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -845,14 +906,26 @@
     justify-content: flex-start;
     align-items: center;
     padding: 1.5rem 0;
+    background: white;
 }
 
 #faq .content .answer h4{
-    color: #03CDD5;
+    color: #FFCA4E;
 }
 
 #faq .content .answer p{
     margin-left: 2.38rem;
+}
+
+#faq .cta{
+    margin-top: 10rem;
+}
+
+#faq .cta::after{
+    width: 10.8rem;
+    height: 2.4rem;
+    transform: translate(-220%, -40%);
+    background: url("../img/faq_appeal.svg")no-repeat center center/contain;
 }
 
 @media screen and (max-width: 767px){
