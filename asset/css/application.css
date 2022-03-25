@@ -268,21 +268,29 @@ footer .wrap p{
     }
 
     .cta{
-        flex-direction: column;
-        width: 100%;
-    }
-
-
-    .cta a:nth-child(2){
-        margin-left: 0;
-        margin-top: 1.22rem;
+        width: 85.33%;
+        margin: auto;
     }
 
     .cta a{
         font-size: 2rem;
         padding: 1.5rem 0;
-        width: 100%;
+        width: 48%;
         text-align: center;
+    }
+
+    .cta::before{
+        width: 4.6rem;
+        height: 5.8rem;
+        transform: translate(-340%, -65%);
+    }
+
+    .cta::after{
+        width: 12.5rem;
+        height: 2.4rem;
+        top: -2rem;
+        left: 50%;
+        transform: translate(-95%, -40%);
     }
 
     footer .wrap{

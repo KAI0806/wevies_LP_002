@@ -16,7 +16,7 @@
 #thanks .wrap h2{
     font-size: 4rem;
     margin-bottom: 5rem;
-    color: #03CDD5;
+    color: #ffbb00;
 }
 
 #thanks .wrap p{
@@ -34,7 +34,7 @@
     padding: 2.5rem 6rem;
     border-radius: 1.3rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
-    background: #034FD5;
+    background: #FBD878;
 }
 
 #thanks .wrap a:hover{
