@@ -1043,7 +1043,6 @@
         width: 100%;
         text-align: right;
         font-size: 3rem;
-        text-shadow: 0 .4rem #FDFDFD;
         line-height: 1;
         position: relative;
         margin-top: .78rem;
@@ -1059,9 +1058,9 @@
     }
 
     #kv .wrap div::before{
-        width: 4.6rem;
-        height: 5.8rem;
-        transform: translate(10%, -60%);
+        width: 12rem;
+        height: 12rem;
+        transform: translate(-15%, -58%);
     }
 
     #kv .wrap div::after{
@@ -1069,7 +1068,7 @@
         height: 2.4rem;
         top: -1rem;
         left:0;
-        transform: translate(60%, -65%);
+        transform: translate(82%, -65%);
     }
 
     #kv .wrap div a{
@@ -1079,8 +1078,21 @@
         transform: none;
     }
 
+    #kv .wrap div a:first-child{
+        background: #03CDD5;
+        position: relative;
+        box-shadow: 0 .6rem #00A0A7;
+    }
+    
     #kv .wrap div a:nth-child(2){
+        background: #034FD5;
         margin-left: 0;
+        box-shadow: 0 .6rem #1C3F7D;
+    }
+    
+    #kv .wrap div a:hover{
+        transform: translateY(.6rem);
+        box-shadow: inset 0 3px 6px rgba(0, 0, 0, 60%);
     }
 
     /* issue */
@@ -1425,9 +1437,9 @@
     }
 
     #feature .cta::before, #price .cta::before, #flow .cta::before, #faq .cta::before{
-        width: 4.6rem;
-        height: 5.8rem;
-        transform: translate(-340%, -60%);
+        width: 7rem;
+        height: 7rem;
+        transform: translate(-235%, -60%);
     }
 
     #feature .cta::after, #price .cta::after, #flow .cta::after, #faq .cta::after{

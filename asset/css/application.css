@@ -287,10 +287,23 @@ footer .wrap p{
         text-align: center;
     }
 
+    .cta a:first-child{
+        box-shadow: 0 .5rem #00A0A7;
+    }
+    
+    .cta a:nth-child(2){
+        box-shadow: 0 .5rem #1C3F7D;
+    }
+
+    .cta a:hover{
+        transform: translateY(.5rem);
+    }
+    
+
     .cta::before{
-        width: 4.6rem;
-        height: 5.8rem;
-        transform: translate(-340%, -65%);
+        width: 8rem;
+        height: 8rem;
+        transform: translate(-210%, -60%);
     }
 
     .cta::after{
@@ -298,7 +311,7 @@ footer .wrap p{
         height: 2.4rem;
         top: -2rem;
         left: 50%;
-        transform: translate(-95%, -40%);
+        transform: translate(-90%, -40%);
     }
 
     footer .wrap{
