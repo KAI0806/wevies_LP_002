@@ -5,6 +5,7 @@ function select01(){
     document.getElementById('txt02').classList.remove('is-active');
     document.getElementById('btn03').classList.remove('is-active');
     document.getElementById('txt03').classList.remove('is-active');
+    document.getElementById('bubble').classList.remove('bubble-active')
 };
 
 function select02(){
@@ -14,6 +15,7 @@ function select02(){
     document.getElementById('txt01').classList.remove('is-active');
     document.getElementById('btn03').classList.remove('is-active');
     document.getElementById('txt03').classList.remove('is-active');
+    document.getElementById('bubble').classList.add('bubble-active')
 };
 
 function select03(){
@@ -23,7 +25,9 @@ function select03(){
     document.getElementById('txt02').classList.remove('is-active');
     document.getElementById('btn01').classList.remove('is-active');
     document.getElementById('txt01').classList.remove('is-active');
+    document.getElementById('bubble').classList.remove('bubble-active')
 };
+
 
 document.getElementById('btn01').addEventListener('click',function(){
     select01();
