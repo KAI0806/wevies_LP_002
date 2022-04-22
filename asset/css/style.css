@@ -13,7 +13,7 @@
     height: 121rem;
     left: -12rem;
     top: -11rem;
-    background: url("../img/kv_bg.png")no-repeat center center/contain;
+    background: url("../img/kv_bg.png") no-repeat center center/contain;
     z-index: -1;
     opacity: .75;
 }
@@ -43,7 +43,7 @@
     top: 0;
     left: -21rem;
     transform: translateY(-25%);
-    background: url("../img/secret.png")no-repeat center center/contain;
+    background: url("../img/secret.png") no-repeat center center/contain;
 }
 
 #kv .wrap h2::after{
@@ -53,7 +53,7 @@
     height: 21.43rem;
     top: -15rem;
     right: -28rem;
-    background: url("../img/coin.svg")no-repeat center center/contain;
+    background: url("../img/coin.svg") no-repeat center center/contain;
 }
 
 #kv .wrap h2 span{
@@ -73,7 +73,7 @@
     left: 0;
     top: 0;
     transform: translate(45%, -60%);
-    background: url("../img/cat_mini.gif")no-repeat center center/contain;
+    background: url("../img/cat_mini.gif") no-repeat center center/contain;
     z-index: -1;
 }
 
@@ -85,7 +85,7 @@
     top: -3rem;
     left: 1rem;
     transform: translate(90%, -65%);
-    background: url("../img/kv_appeal.svg")no-repeat center center/contain;
+    background: url("../img/kv_appeal.svg") no-repeat center center/contain;
 }
 
 #kv .wrap div a{
@@ -166,7 +166,7 @@
     top: -1rem;
     left: 50%;
     transform: translateX(-50%);
-    background: url("../img/dot.svg")no-repeat center center/contain;
+    background: url("../img/dot.svg") no-repeat center center/contain;
 }
 
 #issue .title h3{
@@ -184,7 +184,7 @@
     height: 24.894rem;
     margin-left: 50%;
     transform: translateX(-50%);
-    background: url("../img/cat_bg.svg")no-repeat center center/contain;
+    background: url("../img/cat_bg.svg") no-repeat center center/contain;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +198,7 @@
     width: 18.6rem;
     height: 27rem;
     left: -5.5rem;
-    background: url("../img/cat_img.png")no-repeat center center/contain;
+    background: url("../img/cat_img.png") no-repeat center center/contain;
 }
 
 #issue .cat p{
@@ -249,7 +249,7 @@
     width: 18rem;
     height: 18rem;
     transform: translateY(-50%);
-    background: url("../img/issue_bg_white.svg")no-repeat center center/contain;
+    background: url("../img/issue_bg_white.svg") no-repeat center center/contain;
     z-index: 0;
 }
 
@@ -318,7 +318,7 @@
     top: 0;
     right: 3rem;
     transform: translateY(-50%);
-    background: url("../img/issue_bubble.svg")no-repeat center center/cover;
+    background: url("../img/issue_bubble.svg") no-repeat center center/cover;
 }
 
 #issue .wrap .content:nth-child(2) .bottom{
@@ -345,18 +345,18 @@
     width: 23rem;
     height: 23rem;
     transform: translateY(-50%) rotateZ(-60deg);
-    background: url("../img/issue_bg.svg")no-repeat center center/contain;
+    background: url("../img/issue_bg.svg") no-repeat center center/contain;
     z-index: 0;
     opacity: .22;
 }
 
 #issue .cta::after{
-    background: url("../img/issue_appeal.svg")no-repeat center center/contain;
+    background: url("../img/issue_appeal.svg") no-repeat center center/contain;
 }
 
 /* feature */
 #feature .title{
-    background: url("../img/feature_title_bg.svg")no-repeat center center/cover;
+    background: url("../img/feature_title_bg.svg") no-repeat center center/cover;
     margin-bottom: 7.54rem;
 }
 
@@ -497,7 +497,7 @@
     width: 21.6rem;
     height: 2.7rem;
     transform: translate(-110%, -40%);
-    background: url("../img/feature_appeal.svg")no-repeat center center/contain;
+    background: url("../img/feature_appeal.svg") no-repeat center center/contain;
 }
 
 /* price */
@@ -516,7 +516,7 @@
     color: #F8FEFF;
     padding: 5.63rem 0;
     margin-bottom: 4.72rem;
-    background: url("../img/title_bg02.svg")no-repeat center center/cover;
+    background: url("../img/title_bg02.svg") no-repeat center center/cover;
 }
 
 #price h2 img, #flow h2 img{
@@ -606,7 +606,7 @@
     font-size: 2rem;
     padding: 1rem 0;
     width: 70%;
-    background: #03CDD5;
+    background: #FFCA4E;
     color: #F8FEFF;
     text-align: center;
 }
@@ -732,7 +732,7 @@
     height: 1.5rem;
     top: 50%;
     transform: translateY(-50%);
-    background: url("../img/doubleline.svg")no-repeat center center/cover;
+    background: url("../img/doubleline.svg") no-repeat center center/cover;
 }
 
 #price .table .campaign img{
@@ -781,7 +781,7 @@
     width: 11.3rem;
     height: 2.4rem;
     transform: translate(-210%, -40%);
-    background: url("../img/price_appeal.svg")no-repeat center center/contain;
+    background: url("../img/price_appeal.svg") no-repeat center center/contain;
 }
 
 /* flow */
@@ -867,7 +867,7 @@
     width: 10.7rem;
     height: 2.4rem;
     transform: translate(-220%, -40%);
-    background: url("../img/flow_appeal.svg")no-repeat center center/contain;
+    background: url("../img/flow_appeal.svg") no-repeat center center/contain;
 }
 
 /* faq */
@@ -935,7 +935,7 @@
     width: 10.8rem;
     height: 2.4rem;
     transform: translate(-220%, -40%);
-    background: url("../img/faq_appeal.svg")no-repeat center center/contain;
+    background: url("../img/faq_appeal.svg") no-repeat center center/contain;
 }
 
 @media screen and (max-width: 1280px){
@@ -996,7 +996,7 @@
         height: 56.7rem;
         left: -10rem;
         top: 0;
-        background: url(../img/kv_bg.png)no-repeat center center/contain;
+        background: url("../img/kv_bg.png") no-repeat center center/contain;
         z-index: -1;
         opacity: .15;
     }
@@ -1292,7 +1292,7 @@
 
     /* featute */
     #feature .title {
-        background: url("../img/feature_title_bg_sp.svg")no-repeat center center/cover;
+        background: url("../img/feature_title_bg_sp.svg") no-repeat center center/cover;
         margin-bottom: 4.35rem;
     }
 
@@ -1409,7 +1409,7 @@
         left: 0;
         top: 50%;
         transform: translate(-15%, -50%);
-        background: url("../img/cat_color.png")no-repeat center center/contain;
+        background: url("../img/cat_color.png") no-repeat center center/contain;
     }
 
     #feature .cat::after{
@@ -1420,7 +1420,7 @@
         right: 0;
         top: 0;
         transform: translate(-15%, -90%);
-        background: url("../img/coin.svg")no-repeat center center/contain;
+        background: url("../img/coin.svg") no-repeat center center/contain;
     }
 
     #feature .cat p{
@@ -1592,7 +1592,7 @@
         color: #F8FEFF;
         padding: 2.6rem 0;
         margin-bottom: 1.9rem;
-        background: url("../img/title_bg02.svg")no-repeat center center/cover;
+        background: url("../img/title_bg02.svg") no-repeat center center/cover;
     }
 
     #price h2 img, #flow h2 img{
@@ -1880,7 +1880,7 @@
         transform: translateY(-50%);
         width: 100%;
         height: .7rem;
-        background: url("../img/doubleline.svg")no-repeat center center/cover;
+        background: url("../img/doubleline.svg") no-repeat center center/cover;
     }
 
     #price .select_inner .campaign h3{
